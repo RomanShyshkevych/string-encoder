@@ -32,6 +32,9 @@ public class MainApp {
 				case "ascii":
 					encodedContent = encoder.encodeToAscii(content);
 					break;
+				case "sha256":
+					encodedContent = encoder.encodeToBase64(content);
+					break;
 				case "base64":
 					encodedContent = encoder.encodeToBase64(content);
 					break;

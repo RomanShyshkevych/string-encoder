@@ -1,7 +1,1 @@
-ssh-keygen -t rsa -b 4096 -C "progroman13@gmail.com"gh
-
-
-
-gh auth login
-
-gh repo create string-encoder --public
+git remote add origin git@github.com:RomanShyshkevych/string-encoder.git
