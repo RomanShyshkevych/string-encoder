@@ -1,0 +1,7 @@
+ssh-keygen -t rsa -b 4096 -C "progroman13@gmail.com"gh
+
+
+
+gh auth login
+
+gh repo create string-encoder --public
